@@ -1,0 +1,10 @@
+{
+        "run"      : "run",
+        "bsy"      : 1,
+        "cnt"      : 1,
+        "rok"      : 1,
+        "gat"      : 1,
+        "evt"      : 2,
+        "mutation" : "none",
+        "rate"     : 100
+}
