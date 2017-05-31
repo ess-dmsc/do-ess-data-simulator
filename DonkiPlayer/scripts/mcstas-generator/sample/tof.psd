@@ -1,0 +1,47 @@
+# Format: McCode with text headers
+# URL: http://www.mccode.org
+# Creator: McStas 2.3 - Apr. 06, 2016
+# Instrument: /Users/brambilla/work/mcstas/prova.instr
+# Ncount: 1000000
+# Trace: no
+# Gravitation: no
+# Seed: 1463145968
+# Directory: /Users/brambilla/work/mcstas/prova_20160513_134017
+# Param: ROT=0
+# Date: Fri May 13 13:40:19 2016 (1463139619)
+# type: array_1d(20)
+# Source: vanadium_example (/Users/brambilla/work/mcstas/prova.instr)
+# component: tof
+# position: 1 0 1
+# title: Time-of-flight monitor
+# Ncount: 1000000
+# filename: tof.psd
+# statistics: X0=0; dX=0;
+# signal: Min=0; Max=0; Mean=0;
+# values: 0 0 0
+# xvar: t
+# yvar: (I,I_err)
+# xlabel: Time-of-flight [\gms]
+# ylabel: Intensity
+# xlimits: 0 20
+# variables: t I I_err N
+0.5 0 0 0 
+1.5 0 0 0 
+2.5 0 0 0 
+3.5 0 0 0 
+4.5 0 0 0 
+5.5 0 0 0 
+6.5 0 0 0 
+7.5 0 0 0 
+8.5 0 0 0 
+9.5 0 0 0 
+10.5 0 0 0 
+11.5 0 0 0 
+12.5 0 0 0 
+13.5 0 0 0 
+14.5 0 0 0 
+15.5 0 0 0 
+16.5 0 0 0 
+17.5 0 0 0 
+18.5 0 0 0 
+19.5 0 0 0 

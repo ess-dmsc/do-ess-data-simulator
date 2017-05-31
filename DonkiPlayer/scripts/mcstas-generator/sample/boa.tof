@@ -1,0 +1,53 @@
+# Format: McStas with text headers file. Use mcplot/PGPLOT to view.
+# URL:    http://www.mcstas.org/
+# Editor: l_rantsiou on mcc
+# Creator:BOA_RNR51 (/home/l_rantsiou/submit/tests/manou_tests/monitors/BOA.instr) simulation (McStas 1.12c - Jun. 03, 2011)
+# Date:   Simulation started (1463478809) Tue May 17 11:53:29 2016
+# File:   MyMon2_1463478809.t
+# Ncount: 1e+07
+# Trace: no
+# Gravitation: no
+# Seed: 1463478809
+# Param: lambda_source=5
+# Param: dlambda_source=5
+# Param: flagin=0
+# Param: trompete_exit_slit_width=0.04
+# Param: trompete_exit_slit_height=0.04
+# type: array_1d(20)
+# Source: /home/l_rantsiou/submit/tests/manou_tests/monitors/BOA.instr
+# component: MyMon2
+# position: -0.0145 0 10.0286
+# title: TOF [s] (abs) (log) monitor
+# ratio: 0/1e+07
+# filename: MyMon2_1463478809.t
+# format: McStas with text headers
+# statistics: X0=-1.95979; dX=0.181207;
+# signal: Min=5.50667e+07; Max=2.51222e+08; Mean= 1.62235e+08;
+# values: 3.24469e+09 1.80039e+07 177111
+# xvar: t
+# yvar: (I,I_err)
+# xlabel: TOF [s] (abs) (log)
+# ylabel: Intensity [n/s/bin]
+# xlimits: -2.3634 -1.5962
+# variables: t I I_err N
+-2.34422 5.50667e+07 5.10247e+06 622
+-2.30586 7.04634e+07 5.25464e+06 924
+-2.2675 8.73594e+07 5.32581e+06 1253
+-2.22914 1.09908e+08 5.37986e+06 1663
+-2.19078 1.20899e+08 5.02898e+06 2020
+-2.15242 1.60798e+08 5.24956e+06 2622
+-2.11406 1.80568e+08 5.04153e+06 3106
+-2.0757 2.12278e+08 5.04223e+06 3880
+-2.03734 2.41019e+08 4.98397e+06 4612
+-1.99898 2.4909e+08 4.63542e+06 5735
+-1.96062 2.51222e+08 4.23363e+06 6876
+-1.92226 2.42869e+08 3.7649e+06 7974
+-1.8839 2.27543e+08 3.24348e+06 9350
+-1.84554 2.12797e+08 2.76663e+06 10990
+-1.80718 1.90534e+08 2.27489e+06 13197
+-1.76882 1.6379e+08 1.80842e+06 15600
+-1.73046 1.44867e+08 1.44591e+06 17868
+-1.6921 1.24816e+08 1.12698e+06 20264
+-1.65374 1.06872e+08 871070 22803
+-1.61538 9.19358e+07 673556 25752
+# EndDate:Tue May 17 11:53:48 2016
