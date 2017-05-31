@@ -12,7 +12,7 @@ The repository consists of two main directories: DonkiDirector and DonkiPlayer.
 USAGE
 -----
 
-* Director
+* **Director**
 
 In order to start the DonkiDirector do:
 ```
