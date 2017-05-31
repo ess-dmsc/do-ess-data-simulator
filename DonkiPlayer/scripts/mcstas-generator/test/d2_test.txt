@@ -1,0 +1,17 @@
+# Editor: michele.brambilla@psi.ch
+# Date:   Today
+# Date:   Simulation started (1463478809) Nevermind
+# File:   no_file
+# Ncount: 1e+03
+# type: array_2d(3, 2)
+# format: McStas with text headers
+# signal: Min=1.0; Max=2.2; Mean= 1.55;
+# zlabel: Signal per bin
+# variables: I I_err N
+1.0          1.1     1.2
+2.0          2.1     2.2
+3.3e+07 2.6e+07 1.9e+07
+4.2e+07 3.4e+07 2.6e+07
+12345 23456 34567
+98765 87654 76543
+# EndDate:TheDayAfterTomorrow

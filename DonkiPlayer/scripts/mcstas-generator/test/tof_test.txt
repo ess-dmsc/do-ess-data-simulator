@@ -1,0 +1,20 @@
+# Format: McStas with text headers file. Use mcplot/PGPLOT to view.
+# Editor: michele.brambilla
+# Date:   Simulation started (1463478809) Nevermind
+# File:   no_file
+# Ncount: 1e+03
+# format: McStas with text headers
+## signal: Min=1.0e+02; Max=5.0e+08; Mean= 3e+03;
+# xvar: t
+# yvar: (I,I_err)
+# xlabel: TOF [s] (abs) (log)
+# ylabel: Intensity [n/s/bin]
+# xlimits: 0.0 1.0
+# variables: t I I_err N
+0.0 5.0e+07 1.0e+06 100
+0.2 6.0e+07 1.1e+06 110
+0.4 7.0e+07 1.2e+06 120
+0.6 8.0e+07 1.3e+06 130
+0.8 9.0e+07 1.4e+06 140
+1.0 1.0e+08 1.5e+06 150
+# EndDate:TheDayAfterTomorrow
