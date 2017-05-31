@@ -6,7 +6,7 @@ DonkiOrchestra is a specialised framework that offers advanced WORKFLOW control 
 DESCRIPTION
 -----------
 
-The repository consists of tow main directories: DonkiDirector and DonkiPlayer.
+The repository consists of two main directories: DonkiDirector and DonkiPlayer.
 
 USAGE
 -----
@@ -31,6 +31,8 @@ cd DonkiPlayer
 ```
 You have to specify the arguments ```player_name``` (a unique name for the player), ```localhost:50010``` (the URL for the information server) and ```action_code``` (the script that will run as the sequence of triggers arrives to the Player).
 
+EXAMPLE
+-------
 
 
 
