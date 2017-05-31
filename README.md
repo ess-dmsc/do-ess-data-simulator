@@ -12,6 +12,7 @@ USAGE
 -----
 
 * Director
+
 In order to start the DonkiDirector do:
 ```
 cd DonkiDirector
@@ -22,6 +23,7 @@ This application accepts user input commands that allows you to setup the player
 start, stop, players?, triggers=N, priority[playername]=N, quit
 
 * Player
+
 In order to start a generci DonkiPlayer do:
 ```
 cd DonkiPlayer
