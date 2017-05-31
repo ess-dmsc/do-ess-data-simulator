@@ -17,7 +17,7 @@ USAGE
 In order to start the DonkiDirector do:
 ```
 cd DonkiDirector
-./DonkiDirector_cmdline.py
+python DonkiDirector_cmdline.py
 ```
 This application accepts user input commands that allows you to setup the players and start a sequence with a defined number of triggers. Available commands are:  
    *  Available commands are:
@@ -34,7 +34,7 @@ This application accepts user input commands that allows you to setup the player
 In order to start a generic DonkiPlayer do:
 ```
 cd DonkiPlayer
-./DonkiPlayer.py player_name localhost:50010 scripts/just_action.py
+python DonkiPlayer.py player_name localhost:50010 scripts/just_action.py
 ```
 You have to specify the arguments `player_name` (a unique name for the player), `localhost:50010` (the URL for the information server) and `action_code` (the script that will run as the sequence of triggers arrives to the Player).
 
