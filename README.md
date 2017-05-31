@@ -46,12 +46,12 @@ EXAMPLES
 In one terminal run:
 ```
 cd DonkiDirector
-./DonkiDirector_cmdline.py
+python DonkiDirector_cmdline.py
 ```
 In a separate terminal starts a Player:
 ```
 cd DonkiPLayer
-./DonkiPlayer.py player0 localhost:50010 scripts/just_action.py
+python DonkiPlayer.py player0 localhost:50010 scripts/just_action.py
 ```
 After starting the Player set the desired number of `triggers` and changes the level of `priority` of the Player on Director's terminal:
 ```
