@@ -20,7 +20,7 @@ cd DonkiDirector
 ./DonkiDirector_cmdline.py
 ```
 This application accepts user input commands that allows you to setup the players and start a sequence with a defined number of triggers. Available commands are:
-
+*
   * `start` -> start the sequence of triggers
   * `stop` -> stops the sequence of triggers
   * `players?` -> displays the Players added
