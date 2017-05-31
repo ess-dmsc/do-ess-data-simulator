@@ -12,20 +12,21 @@ The repository consists of two main directories: DonkiDirector and DonkiPlayer.
 USAGE
 -----
 
-* **Director**
+*  **Director**
 
 In order to start the DonkiDirector do:
 ```
 cd DonkiDirector
 ./DonkiDirector_cmdline.py
 ```
-This application accepts user input commands that allows you to setup the players and start a sequence with a defined number of triggers. Available commands are:
-   + `start` -> start the sequence of triggers 
-   + `stop` -> stops the sequence of triggers
-   + `players?` -> displays the Players added
-   + `triggers=N` -> sets the number of triggers 
-   + `priority[playername]=N` -> sets the level of priority of a Player
-   + `quit` -> quit and exit the application
+This application accepts user input commands that allows you to setup the players and start a sequence with a defined number of triggers. Available commands are:  
+  *  `start` -> start the sequence of triggers 
+  *  `stop` -> stops the sequence of triggers
+  *  `players?` -> displays the Players added
+  *  `triggers=N` -> sets the number of triggers 
+  *  `priority[playername]=N` -> sets the level of priority of a Player
+  *  `quit` -> quit and exit the application
+
 
 * **Player**
 
