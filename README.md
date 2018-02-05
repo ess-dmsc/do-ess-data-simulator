@@ -9,6 +9,12 @@ DESCRIPTION
 
 The repository consists of two main directories: DonkiDirector and DonkiPlayer.
 
+REFERENCES
+-----------
+
+ * NOBUGS 2016: https://indico.esss.lu.se/event/357/session/8/contribution/36
+ * ICALEPCS 2017: http://icalepcs2017.vrws.de/papers/thmpa03.pdf
+
 USAGE
 -----
 
