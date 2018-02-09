@@ -25,11 +25,24 @@ node("docker") {
             chown -R jenkins.jenkins /home/jenkins/${project}
         \""""
         
+        stage("Install virtualenv") {
+            sh """docker exec -u root ${container_name} bash -c \"
+               yum install -y python-virtualenv 
+            \""""
+        }
+
+        stage("Create virtualenv") {
+            sh """docker exec ${container_name} bash -c \"
+                cd ${project}
+                virtualenv build_env
+            \""""
+        }
+        
         stage("Install requirements") {
             sh """docker exec ${container_name} bash -c \"
                 cd ${project}
-                pip --proxy ${http_proxy} install --upgrade pip
-                pip --proxy ${http_proxy} install -r requirements.txt --user
+                build_env/bin/pip --proxy ${http_proxy} install --upgrade pip
+                build_env/bin/pip --proxy ${http_proxy} install -r requirements.txt
             \""""
         }
         
