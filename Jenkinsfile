@@ -48,7 +48,7 @@ node("docker") {
 
         stage("Generate cobertura report") {
                         sh """cd ${project}
-                              cobertura-generate .
+                              cobertura .
                               \""""
         }
 
