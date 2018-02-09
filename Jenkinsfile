@@ -28,7 +28,7 @@ node("docker") {
         stage("Create virtualenv") {
             sh """docker exec ${container_name} bash -c \"
                 cd ${project}
-                python2.7 -m venv build_env
+                python2.7 -m virtualenv build_env
             \""""
         }
         
