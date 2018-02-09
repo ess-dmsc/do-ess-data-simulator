@@ -45,7 +45,24 @@ node("docker") {
                 build_env/bin/pip --proxy ${http_proxy} install -r requirements.txt
             \""""
         }
-        
+
+        stage("Generate cobertura report") {
+            cmake_exec = "/home/jenkins/${project}/build/bin/cmake"
+            abs_dir = pwd()
+
+            def custom_sh = images[image_key]['sh']
+                    try {
+                        sh """cd ${project}
+                              cobertura-generate .
+                              \""""
+                        } catch(e) {
+            failure_function(e, 'Run tests (${container_name(image_key)}) failed')
+        }
+
+        }
+
+
+
     } finally {
         container.stop()
     }
