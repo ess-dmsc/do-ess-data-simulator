@@ -48,7 +48,7 @@ node("docker") {
 
         stage("Generate cobertura report") {
                         sh """cd ${project}
-                              coverage report DonkiDirector/*
+                              python -m coverage report DonkiDirector/*
                               \""""
         }
 
