@@ -54,6 +54,24 @@ node("docker") {
                 build_env/bin/coverage xml DonkiDirector/*.py
             \""""
             sh "docker cp ${container_name}:/home/jenkins/${project} ./"
+            sh "ls *"
+            
+            
+            dir("${project}") {
+                sh "ls *"
+                step([
+                    $class: 'CoberturaPublisher',
+                    autoUpdateHealth: true,
+                    autoUpdateStability: true,
+                    coberturaReportFile: 'coverage.xml',
+                    failUnhealthy: false,
+                    failUnstable: false,
+                    maxNumberOfBuilds: 0,
+                    onlyStable: false,
+                    sourceEncoding: 'ASCII',
+                    zoomCoverageChart: true
+                ])
+            }
         }
 
     } finally {
