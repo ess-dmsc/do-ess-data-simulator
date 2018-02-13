@@ -41,19 +41,20 @@ node("docker") {
         stage("Install requirements") {
             sh """docker exec ${container_name} bash -c \"
                 cd ${project}
+                source build_env/bin/activate
                 build_env/bin/pip --proxy ${http_proxy} install --upgrade pip
                 build_env/bin/pip --proxy ${http_proxy} install -r requirements.txt
             \""""
         }
 
-        stage("Generate cobertura report") {
-                        sh """cd ${project}
-                              echo $PATH
-                              coverage-report DonkiDirector/*
-                              \""""
+        stage("Run test coverage") {
+            sh """docker exec ${container_name} bash -c \"
+                cd ${project}
+                source build_env/bin/activate
+                build_env/bin/coverage xml DonkiDirector/*.py
+            \""""
+            sh "docker cp ${container_name}:/home/jenkins/${project} ./"
         }
-
-
 
     } finally {
         container.stop()
