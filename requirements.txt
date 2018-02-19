@@ -1,0 +1,4 @@
+numpy
+zmq
+h5py
+coverage
